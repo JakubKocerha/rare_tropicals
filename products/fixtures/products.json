@@ -1,0 +1,227 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Philodendron Domesticum #1 50cm",
+          "description":"Large and imposing leaves, often lobed or deeply cut, and may be more or less pinnate",
+          "price":499.00,
+          "category":4,
+          "rating":4.6,
+          "image_url":"https://i.imgur.com/ujiUCxT.jpg",
+          "image":"domesticum1.jpg"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001600425",
+          "name":"Philodendron Melanochrysum #1 20cm",
+          "description":"It is by far the finest species of Philodendron for decorative purposes ever brought under cultivation. Its stately foliage when fully developed may be compared, for size and effectiveness, with that of Anthurium veitchii and Anthurium warocqueanum",
+          "price":49.00,
+          "category":5,
+          "rating":4.6,
+          "image_url":"https://i.imgur.com/DjmvPAb.jpg",
+          "image":"melanochrysum1.jpg"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001730010",
+          "name":"Philodendron Pink Princess #1 25cm",
+          "description":"Philodendron erubescens, the blushing philodendron, is a species of flowering plant in the family Araceae, native to Colombia. It is a robust evergreen climber growing to 6 m (20 ft), with red stems and heart-shaped leaves up to 40 cm (16 in) in length. The flowers are deep red, fragrant spathes up to 15 cm (6 in) long, in summer and autumn.",
+          "price":39.00,
+          "category":7,
+          "rating":4.7,
+          "image_url":"https://i.imgur.com/O0YMGyK.jpg",
+          "image":"pinkprincess1.jpg"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "name":"Philodendron Red Anderson #1 35cm",
+          "description":"It is also known as a Philodendron White Anderson sometimes also Philodendron Pink Anderson in Europe. The stems are burgundy, the leaf shape and variegation patterns are like a Philodendron Pink Princess, but the final color is white. At first the variegated areas come out in this very faint pink, but then it eventually hardens to white.",
+          "price":450.00,
+          "category":11,
+          "rating":4.9,
+          "image_url":"https://i.imgur.com/DSNrlvi.jpg",
+          "image":"redanderson1.jpg"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "name":"Philodendron Splendid #1 20cm",
+          "description":"The cordiform-lanceolate leaves are deflected vertically from a robust erect footstalk, and attain a length of four to five feet.",
+          "price":49.99,
+          "category":12,
+          "rating":5.0,
+          "image_url":"https://i.imgur.com/gM4J023.jpg",
+          "image":"splendid1.jpg"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "name":"Philodendron White Knight #1 35cm",
+          "description":"Once it has reached a sufficient size and age, it will begin producing aerial roots that grow toward the forest floor.",
+          "price":59.99,
+          "category":15,
+          "rating":4.7,
+          "image_url":"https://i.imgur.com/ASIH5DJ.jpg",
+          "image":"whiteknight1.jpg"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002440521",
+          "name":"Philodendron White Princess #1 15cm",
+          "description":"The name derives from the Greek words philo- or love, affection and dendron or tree. The generic name, Philodendron, is often used as the English name, philodendron.",
+          "price":24.90,
+          "category":16,
+          "rating":4.4,
+          "image_url":"https://i.imgur.com/Um5Ms2Q.jpg",
+          "image":"whiteprincess1.jpg"
+       }
+    },
+    {
+       "pk":8,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002601115",
+          "name":"Syngonium Confetti #1 35cm",
+          "description":"They are woody vines growing to heights of up to 20 m or more in trees. They have leaves that change shape according to the plant's stage of growth, and adult leaf forms are often much more lobed than the juvenile forms usually seen on small house plants.",
+          "price":39.00,
+          "category":3,
+          "rating":4.5,
+          "image_url":"https://i.imgur.com/RBAG2gF.jpg",
+          "image":"confetti1.jpg"
+       }
+    },
+    {
+       "pk":9,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002690715",
+          "name":"Syngonium Mint #1 40cm",
+          "description":"Syngonium species are native to tropical America, where they are found from Mexico to Brazil. The center of diversity of genus is in Costa Rica and Panama, where there are a total of 16 species.",
+          "price":16.99,
+          "category":6,
+          "rating":4.7,
+          "image_url":"https://i.imgur.com/1WMbRFy.jpg",
+          "image":"mint1.jpg"
+       }
+    },
+    {
+       "pk":10,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002701115",
+          "name":"Syngonium Pink Splash #1 20cm",
+          "description":"It climbs a few meters tall over the trunks of tropical jungle trees, clinging by its roots. The cultivars cultivated indoors reach a height of up to 1.5 m",
+          "price":33.00,
+          "category":8,
+          "rating":4.4,
+          "image_url":"https://i.imgur.com/UdU4JNv.jpg",
+          "image":"pinksplash1.jpg"
+       }
+    },
+    {
+       "pk":11,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002761055",
+          "name":"Syngonium Pink Splash Tricolor #1 20cm",
+          "description":"Syngonium species are native to tropical America, where they are found from Mexico to Brazil. The center of diversity of genus is in Costa Rica and Panama, where there are a total of 16 species.",
+          "price":599.00,
+          "category":9,
+          "rating":5.0,
+          "image_url":"https://i.imgur.com/U0duexk.jpg",
+          "image":"pinksplashtricolor1.jpg"
+       }
+    },
+    {
+       "pk":12,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820069",
+          "name":"Syngonium Podophylum Albo #1 20cm",
+          "description":"It is an elongated, climbing or creeping herbaceous evergreen plant that reaches a height of 10–20 m with a sympodial growth type, lacking branches",
+          "price":19.99,
+          "category":10,
+          "rating":4.6,
+          "image_url":"https://i.imgur.com/tnNPphm.jpg",
+          "image":"podophylumalbo1.jpg"
+       }
+    },
+    {
+       "pk":13,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820147",
+          "name":"Syngonium Three Kings #1 20cm",
+          "description":"Syngonium species generally inhabit tropical rainforests, subtropical forests, ruderal areas, thickets, urban areas, and wetlands. Invasive species are also troublesome weeds, e.g. banana crops.",
+          "price":20.00,
+          "category":14,
+          "rating":3.2,
+          "image_url":"https://i.imgur.com/tJysmM5.jpg",
+          "image":"threekings1.jpg"
+       }
+    },
+    {
+       "pk":14,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002910572",
+          "name":"Monstera Aurea #1 20cm",
+          "description":"The common name Swiss cheese plant is also used for the related species from the same genus, Monstera adansonii. The common name split-leaf philodendron is also used for the species Thaumatophyllum bipinnatifidum, although neither species are in the genus Philodendron.",
+          "price":460.00,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://i.imgur.com/YJa1NJC.jpg",
+          "image":"aurea1.jpg"
+       }
+    },
+    {
+       "pk":15,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002990740",
+          "name":"Monstera Albo #1 15cm",
+          "description":"The specific epithet deliciosa means delicious, referring to the edible fruit. The genus Monstera is named from the Latin word for monstrous or abnormal, and refers to the unusual leaves with natural holes that members of the genus have.",
+          "price":48.00,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://i.imgur.com/soJNFuY.jpg",
+          "image":"albo1.jpg"
+       }
+    },
+    {
+       "pk":16,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003050248",
+          "name":"Monstera Thai Constellation #1 40cm",
+          "description":"They are commonly grown indoors as houseplants. The best-known representative of the genus, Monstera deliciosa, is also cultivated for its edible fruit which tastes like a combination of banana and pineapple.",
+          "price":255.00,
+          "category":13,
+          "rating":4.4,
+          "image_url":"https://i.imgur.com/2nD4D9y.jpg",
+          "image":"thaiconst1.jpg"
+       }
+    }
+]
+ 

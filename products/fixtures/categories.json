@@ -1,0 +1,130 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "albo",
+            "friendly_name": "Albo"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "aurea",
+            "friendly_name": "Aurea"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "confetti",
+            "friendly_name": "Confetti"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "domesticum",
+            "friendly_name": "Domesticum"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "melanochrysum",
+            "friendly_name": "Melanochrysum"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "mint",
+            "friendly_name": "Mint"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "pink_princess",
+            "friendly_name": "Pink Princess"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "pink_splash",
+            "friendly_name": "Pink Splash"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "pink_splash_tricolor",
+            "friendly_name": "Pink Splash - Tricolor"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "podophylum_albo",
+            "friendly_name": "Podophylum Albo"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "red_anderson",
+            "friendly_name": "Red Anderson"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "splendid",
+            "friendly_name": "Splendid"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+            "name": "thai_constellation",
+            "friendly_name": "Thai Constellation"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+            "name": "three_kings",
+            "friendly_name": "Three Kings"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+            "name": "white_knight",
+            "friendly_name": "White Knight"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.category",
+        "fields": {
+            "name": "white_princess",
+            "friendly_name": "White Princess"
+        }
+    }
+]
