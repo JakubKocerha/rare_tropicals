@@ -17,14 +17,14 @@
                 Philodendron
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="philodendron-link">
-                <a href="" class="dropdown-item">Domesticum</a>
-                <a href="" class="dropdown-item">Melanochrysum</a>
-                <a href="" class="dropdown-item">Pink Princess</a>
-                <a href="" class="dropdown-item">Red Anderson</a>
-                <a href="" class="dropdown-item">Splendid</a>
-                <a href="" class="dropdown-item">White Knight</a>
-                <a href="" class="dropdown-item">White Princess</a>
-                <a href="" class="dropdown-item">All Philodendrons</a>
+                <a href="{% url 'products' %}?category=domesticum" class="dropdown-item">Domesticum</a>
+                <a href="{% url 'products' %}?category=melanochrysum" class="dropdown-item">Melanochrysum</a>
+                <a href="{% url 'products' %}?category=pink_princess" class="dropdown-item">Pink Princess</a>
+                <a href="{% url 'products' %}?category=red_anderson" class="dropdown-item">Red Anderson</a>
+                <a href="{% url 'products' %}?category=splendid" class="dropdown-item">Splendid</a>
+                <a href="{% url 'products' %}?category=white_knight" class="dropdown-item">White Knight</a>
+                <a href="{% url 'products' %}?category=white_princess" class="dropdown-item">White Princess</a>
+                <a href="{% url 'products' %}?category=domesticum,melanochrysum,pink_princess,red_anderson,splendid,white_knight,white_princess" class="dropdown-item">All Philodendrons</a>
             </div>
         </li>
 
@@ -33,13 +33,13 @@
                 Syngonium
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="syngonium-link">
-                <a href="" class="dropdown-item">Confetti</a>
-                <a href="" class="dropdown-item">Mint</a>
-                <a href="" class="dropdown-item">Pink Splash</a>
-                <a href="" class="dropdown-item">Pink Splash - Tricolor</a>
-                <a href="" class="dropdown-item">Podophilum Albo</a>
-                <a href="" class="dropdown-item">Three Kings</a>
-                <a href="" class="dropdown-item">All Syngoniums</a>
+                <a href="{% url 'products' %}?category=confetti" class="dropdown-item">Confetti</a>
+                <a href="{% url 'products' %}?category=mint" class="dropdown-item">Mint</a>
+                <a href="{% url 'products' %}?category=pink_splash" class="dropdown-item">Pink Splash</a>
+                <a href="{% url 'products' %}?category=pink_splash_tricolor" class="dropdown-item">Pink Splash - Tricolor</a>
+                <a href="{% url 'products' %}?category=podophylum_albo" class="dropdown-item">Podophilum Albo</a>
+                <a href="{% url 'products' %}?category=three_kings" class="dropdown-item">Three Kings</a>
+                <a href="{% url 'products' %}?category=confetti,mint,pink_splash,pink_splash_tricolor,podophylum_albo,three_kings" class="dropdown-item">All Syngoniums</a>
             </div>
         </li>
 
@@ -48,10 +48,10 @@
                 Monstera
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="monstera-link">
-                <a href="" class="dropdown-item">Aurea</a>
-                <a href="" class="dropdown-item">Albo</a>
-                <a href="" class="dropdown-item">Thai Constellation</a>
-                <a href="" class="dropdown-item">All Monsteras</a>
+                <a href="{% url 'products' %}?category=aurea" class="dropdown-item">Aurea</a>
+                <a href="{% url 'products' %}?category=albo" class="dropdown-item">Albo</a>
+                <a href="{% url 'products' %}?category=thai_constellation" class="dropdown-item">Thai Constellation</a>
+                <a href="{% url 'products' %}?category=aurea,albo,thai_constellation" class="dropdown-item">All Monsteras</a>
             </div>
         </li>
     </ul>
