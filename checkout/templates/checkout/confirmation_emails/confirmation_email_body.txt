@@ -1,0 +1,1 @@
+Rare Tropicals Confirmation for Order Number {{ order.order_number }}
