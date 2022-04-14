@@ -5,7 +5,6 @@ from django.db.models import Sum
 from django.conf import settings
 
 from django_countries.fields import CountryField
-
 from products.models import Product
 from profiles.models import UserProfile
 
@@ -60,6 +59,7 @@ class Order(models.Model):
 
     def __str__(self):
         return self.order_number
+
 
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
