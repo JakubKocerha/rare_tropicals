@@ -262,6 +262,50 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+/*----- Reviews from https://github.com/gomathishankar28/ms4_bubbles/blob/main/static/css/base.css-----------*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  /** #7bcbc8; **/
+.view-review {
+      background-color:#e9ecef;
+  }
+.review-desc {
+      font-size: 18px;;
+  }
+.rating-stars {
+    color: #d39e00;
+    margin-left: 60px;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
