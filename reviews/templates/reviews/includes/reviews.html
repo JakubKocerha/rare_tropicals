@@ -39,11 +39,10 @@
                                             </a>
                                             </span>
                                             <span>
-                                            <a href="" data-toggle="tooltip" title="Delete Review" data-placement="top" class="btn">
+                                            <a href="{% url 'delete_review' review.id %}" data-toggle="tooltip" title="Delete Review" data-placement="top" class="btn">
                                                 <i class="far fa-trash-alt"></i>
                                             </a>
                                             </span>
-                                            -->
                                         {% endif %}
                                     {% endif %} 
                                     <p class="rating-stars txt-small mt-1" data-value="{{ review.rating }}"></p>
