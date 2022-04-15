@@ -1,10 +1,10 @@
+# Code taken form https://github.com/gomathishankar28/ms4_bubbles
 from django.db import models
 
 from profiles.models import UserProfile
 from products.models import Product
 
 
-# review model adopted from https://github.com/gomathishankar28/ms4_bubbles
 class Review(models.Model):
     """
     Creates a review model to allow user to perform

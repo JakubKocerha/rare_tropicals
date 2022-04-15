@@ -1,3 +1,4 @@
+<!-- Code taken form https://github.com/gomathishankar28/ms4_bubbles -->
 {% extends "base.html" %}
 {% load static %}
 
@@ -28,7 +29,7 @@
                 {{ form | crispy }}
                 <div class="text-center">
                     
-                    <button class="btn rounded-0 btn-dark mt-3 mr-3" type="submit">Add Review</button>
+                    <button class="btn btn-blue rounded-0 btn-dark mt-3 mr-3" type="submit">Add Review</button>
                     <a href="{% url 'product_detail' product.id %}" class="btn rounded-0 btn-outline-red btn-danger mt-3 ml-3">Cancel</a>
                 </div>
             </form>

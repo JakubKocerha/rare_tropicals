@@ -1,3 +1,4 @@
+#  Code taken form https://github.com/gomathishankar28/ms4_bubbles
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
