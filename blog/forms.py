@@ -14,6 +14,7 @@ class CommentForm(forms.ModelForm):
 
 
 class PostForm(forms.ModelForm):
+
     class Meta:
         model = Post
         fields = '__all__'
@@ -24,4 +25,4 @@ class PostForm(forms.ModelForm):
         self.fields['title'].widget.attrs['autofocus'] = True
 
         for field in self.fields:
-            self.fields[field].widget.attrs['class'] = 'add-product-form-field'
+            self.fields[field].widget.attrs['class'] = 'border-black rounded-0'

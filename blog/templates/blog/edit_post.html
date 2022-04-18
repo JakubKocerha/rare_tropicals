@@ -14,18 +14,18 @@
 <!-- Add new post header -->
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mb-5">
             <hr>
             <h2 class="logo-font mb-4">Blog Management</h2>
-            <h5 class="text-muted">Add a Post</h5>
+            <h5 class="text-muted">Edit a Post</h5>
             <hr>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-6 mb-5">
-            <form class="form mt-3" action="{% url 'add_post' %}" method="POST" enctype="multipart/form-data"
-                id="add-blog-form">
+        <div class="col-12 col-md-6">
+            <form class="mt-3" action="{% url 'edit_post' post.slug %}" method="POST" enctype="multipart/form-data"
+                id="edit-blog-form">
                 {% csrf_token %}
                 {% for field in form %}
                     {% if field.name != 'image' %}
@@ -34,9 +34,9 @@
                         {{ field }}
                     {% endif %}
                 {% endfor %}
-                <div class="text-right mt-4">
+                <div class="text-right mt-2">
                     <a class="btn btn-outline-black rounded-0" href="{% url 'blog' %}">Cancel</a>
-                    <button class="btn btn-black rounded-0" type="submit">Add Post</button>
+                    <button class="btn btn-black rounded-0" type="submit">Edit Post</button>
                 </div>
             </form>
         </div>

@@ -289,6 +289,11 @@ a.category-badge > span.badge:hover {
     margin-left: -60px;
   }
   
+/* Post(Blog) */
+.about-text {
+    font-style: italic;
+}
+
   /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -318,6 +323,10 @@ a.category-badge > span.badge:hover {
 
     .header-container {
         padding-top: 164px;
+    }
+
+    .post-image-container {
+        margin: 0 10%;
     }
 }
 
