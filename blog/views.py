@@ -4,6 +4,8 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import Post
+from .forms import CommentForm
+from .forms import PostForm
 
 
 def blog(request):
@@ -16,4 +18,54 @@ def blog(request):
         'posts': posts,
         'post_count': post_count
     }
+    return render(request, template, context)
+
+
+def post_detail(request, slug):
+    """ Display each Post in detail along with its comments """
+    post = Post.objects.get(slug=slug)
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            obj = form.save(commit=False)
+            obj.post = post
+            obj.save()
+            return redirect('post_detail', slug=post.slug)
+    else:
+        form = CommentForm()
+
+    template = 'blog/post_detail.html'
+    context = {
+        'post': post,
+        'form': form,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def add_post(request):
+    """ Add a post to the blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Only our BUBBLES team has access to this.')
+        return redirect(reverse('homepage'))
+
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save()
+            messages.success(request, 'Successfully added a post!')
+            return redirect(reverse('post_detail', args=[post.slug]))
+        else:
+            messages.error(
+                request, 'Failed to add blog post. Check if form is valid.')
+    else:
+        form = PostForm()
+
+    template = 'blog/add_post.html'
+    context = {
+        'form': form,
+    }
+
     return render(request, template, context)
