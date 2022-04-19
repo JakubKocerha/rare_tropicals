@@ -22,7 +22,7 @@ class PostForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.fields['title'].widget.attrs['autofocus'] = True
+        self.fields['blog'].widget.attrs['autofocus'] = True
 
         for field in self.fields:
             self.fields[field].widget.attrs['class'] = 'border-black rounded-0'
