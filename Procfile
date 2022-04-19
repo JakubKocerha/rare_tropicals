@@ -1,0 +1,1 @@
+web: gunicorn rare_tropicals.wsgi:application
