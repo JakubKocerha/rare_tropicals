@@ -1,4 +1,5 @@
-# code adopted from https://github.com/gomathishankar28/ms4_bubbles/tree/main/blog
+# code adopted from
+# https://github.com/gomathishankar28/ms4_bubbles/tree/main/blog
 from django.contrib import admin
 from .models import Blog, Post, Comment
 

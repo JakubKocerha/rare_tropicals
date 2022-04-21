@@ -1,6 +1,6 @@
-# code adopted from https://github.com/gomathishankar28/ms4_bubbles/tree/main/blog
+# code adopted from
+# https://github.com/gomathishankar28/ms4_bubbles/tree/main/blog
 from django.db import models
-from profiles.models import UserProfile
 
 
 class Blog(models.Model):
@@ -12,7 +12,9 @@ class Blog(models.Model):
 
 
 class Post(models.Model):
-    blog = models.ForeignKey(Blog, related_name="posts", on_delete=models.CASCADE)
+    blog = models.ForeignKey(
+        Blog, related_name="posts", on_delete=models.CASCADE
+        )
     title = models.CharField(max_length=100)
     slug = models.SlugField()
     author = models.CharField(max_length=255)
@@ -26,7 +28,8 @@ class Post(models.Model):
 
 
 class Comment(models.Model):
-    post = models.ForeignKey(Post, related_name="comments", on_delete=models.CASCADE)
+    post = models.ForeignKey(
+        Post, related_name="comments", on_delete=models.CASCADE)
     comment_desc = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=255)
