@@ -1,1 +1,1 @@
-Boutique Ado Confirmation for Order Number {{ order.order_number }}
+Rare Tropicals Confirmation for Order Number {{ order.order_number }}

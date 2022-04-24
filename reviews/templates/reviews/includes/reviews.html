@@ -32,7 +32,7 @@
                                 {% for review in reviews %}
                                     <h5 class="mb-0 fw-bold text-uppercase">{{ review.title }}</h5>
                                     {% if request.user.is_authenticated %} 
-                                        {% if request.user|lower == review.user|lower %}
+                                        {% if request.user.id|lower == review.user.id|lower %}
                                             <span>
                                             <a href="{% url 'edit_review' review.id %}" data-toggle="tooltip" title="Edit Review" data-placement="top" class="btn">
                                                 <i class="far fa-edit"></i>
@@ -48,7 +48,7 @@
                                     <p class="rating-stars txt-small mt-1" data-value="{{ review.rating }}"></p>
                                     <span class="text-secondary review-desc">Posted on: &nbsp;{{ review.review_date|date:"M d, Y" }}</span>
                                     <p class="review-desc">"{{ review.description }}"</p>
-                                    <p class="text-right review-desc"> - {{ review.user }} </p>
+                                    <p class="text-right review-desc"> - {{ review.user.user }} </p>
                                     
                                     <hr>
                                 {% endfor %}
