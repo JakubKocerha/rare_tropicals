@@ -29,6 +29,8 @@ card.mount('#card-element');
 
 // Handle realtime validation errors on the card element
 card.addEventListener('change', function (event) {
+    console.log(clientSecret)
+    console.log(stripePublicKey)
     var errorDiv = document.getElementById('card-errors');
     if (event.error) {
         var html = `
@@ -48,7 +50,7 @@ var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
     ev.preventDefault();
-    card.update({ 'disabled': true});
+    card.update({'disabled': true});
     $('#submit-button').attr('disabled', true);
     $('#payment-form').fadeToggle(100);
     $('#loading-overlay').fadeToggle(100);
