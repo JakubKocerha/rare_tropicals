@@ -23,7 +23,7 @@
                     <div class="card">
                         <div class="card-header review-card" id="headingOne">
                             <h2 class="mb-0">
-                                <button type="button" class="btn cta-button btn-link" data-toggle="collapse" data-target="#collapseOne">view Reviews</button>									
+                                <button type="button" class="btn cta-button btn-link" data-toggle="collapse" data-target="#collapseOne">View Reviews</button>									
                             </h2>
                         </div>
                         <div id="collapseOne" class="collapse view-review" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -64,10 +64,13 @@
 
     <div class="row mt-0">
         <div class="col-12">
-            <div>
-                <a href="{% url 'add_review' product.id %}" class="btn btn-outline-black rounded-0 mt-5 mb-5 ml-3">
-                        Add Your Review
-                </a>
+            <div>{% if request.user.is_authenticated %} 
+                    <a href="{% url 'add_review' product.id %}" class="btn btn-outline-black rounded-0 mt-5 mb-5 ml-3">
+                            Add Your Review
+                    </a>
+                {% else %}
+                    <p class="mt-2 mb-5 ml-3">You must <a href="{% url 'account_login' %}">Login</a> first to add a product review.</p>
+                {% endif %}
             </div>
         </div>
     </div>
