@@ -31,7 +31,9 @@ def add_review(request, product_id):
             messages.success(request, 'Successfully added review.')
             return redirect(reverse('product_detail', args=[product_id]))
         else:
-            messages.error(request, 'Failed to add review. Please check the form is valid and try again.')
+            messages.error(request, ('Failed to add review. '
+                                     'Please check the form is '
+                                     'valid and try again.'))
     else:
         form = ReviewForm()
     template = 'reviews/add_review.html'
@@ -57,7 +59,9 @@ def edit_review(request, review_id):
             return redirect(
                 reverse('product_detail', args=(review.product.id,)))
         else:
-            messages.error(request, 'Failed to edit review. Please check the form is valid and try again.')
+            messages.error(request, ('Failed to edit review. '
+                                     'Please check the form is '
+                                     'valid and try again.'))
     else:
         form = ReviewForm(instance=review)
 

@@ -1,3 +1,4 @@
+# Following code addopted from https://github.com/gomathishankar28/ms4_bubbles
 """ import post model to add/edit and display posts"""
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages

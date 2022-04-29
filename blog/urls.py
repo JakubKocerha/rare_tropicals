@@ -1,3 +1,5 @@
+# Following code addopted from https://github.com/gomathishankar28/ms4_bubbles
+
 from django.urls import path
 from . import views
 
